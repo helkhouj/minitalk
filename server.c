@@ -10,8 +10,8 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
 #include <signal.h>
+#include <unistd.h>
 
 void	ft_putchar(char c)
 {
