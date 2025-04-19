@@ -1,14 +1,14 @@
-NAME_SERVER	= server
-NAME_CLIENT	= client
+NAME_SERVER = server
+NAME_CLIENT = client
 
-CC			= cc
-CFLAGS		= -Wall -Wextra -Werror
+CC = cc
+CFLAGS = -Wall -Wextra -Werror
 
-SRCS_SERVER	= server.c
-SRCS_CLIENT	= client.c
+SRCS_SERVER = server.c
+SRCS_CLIENT = client.c
 
-OBJS_SERVER	= $(SRCS_SERVER:.c=.o)
-OBJS_CLIENT	= $(SRCS_CLIENT:.c=.o)
+OBJS_SERVER = $(SRCS_SERVER:.c=.o)
+OBJS_CLIENT = $(SRCS_CLIENT:.c=.o)
 
 all: $(NAME_SERVER) $(NAME_CLIENT)
 
